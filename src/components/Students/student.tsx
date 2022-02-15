@@ -7,7 +7,6 @@ const Students = () => {
 
   const onClickToButton = () => {
     studentDispatch(studentAction("anyPayload"));
-    console.log(student);
   };
 
   return (
